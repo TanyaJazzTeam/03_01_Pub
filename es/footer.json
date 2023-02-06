@@ -3,6 +3,7 @@
     { "url": "https://about.google/?hl=es", "text": "Sobre Google" },
     {
       "url": "https://about.google/products/?hl=es",
+      "ssl": "aaads",
       "text": "Productos de Google"
     },
     {
