@@ -1,0 +1,31 @@
+---
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monatlich
+  commit-message:
+    prefix: "\U0001F4CC"
+  ignore:
+  - dependency-name: Anmerkung*
+    update-types:
+    - version-update:semver-major
+  - dependency-name: Knoten abrufen
+    update-types:
+    - version-update:semver-major
+  - dependency-name: Ava
+    update-types:
+    - version-update:semver-major
+  - dependency-name: Unified-Flusen-Regel
+    update-types:
+    - version-update:semver-major
+  - dependency-name: unist-*
+    update-types:
+    - version-update:semver-major
+- package-ecosystem: npm
+  directory: "/funktionen"
+  schedule:
+    interval: täglich
+  commit-message:
+    prefix: "\U0001F4CC(Funktionen)"
